@@ -7,6 +7,6 @@ const router = require("./routes/routeIndex")
 app.use("/", router)
 
 
-app.listen(3000, 'localhost', async () => {
+app.listen( process.env.EXPRESS_PORT || 3000, async () => {
     console.log(`App listening on port 3000!`)
 })
