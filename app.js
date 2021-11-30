@@ -7,6 +7,6 @@ app.use(express.json({ limit: "50mb" }))
 app.use("/", router)
 
 
-app.listen(3001, '0.0.0.0', async () => {
-    console.log(`App listening on port 3001!`)
+app.listen(3000, '0.0.0.0', async () => {
+    console.log(`App listening on port 3000!`)
 })
