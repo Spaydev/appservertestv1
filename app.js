@@ -6,6 +6,10 @@ const router = require("./routes/routeIndex")
 // app.use(express.json({ limit: "50mb" }))
 app.use("/", router)
 
+app.get("/test", (req, res) => {
+    res.send("test");
+});
+
 
 // app.listen( process.env.EXPRESS_PORT || 3000, async () => {
 //     console.log(`App listening on port ${process.env.EXPRESS_PORT}`)
