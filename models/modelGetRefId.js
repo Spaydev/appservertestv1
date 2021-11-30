@@ -11,10 +11,13 @@ module.exports.getData = async (data,res) => {
             "last_name":"Zing",
             "phone":"0222222222"
         },{
-            "ref_id":"6969696969696",
-            "first_name":"O",
+            "ref_id":"1200100100102",
+            "first_name":"Ohe",
             "last_name":"teepungkorn",
-            "phone":"0868948956"
+            "date_of_birth": "2021-11-25",
+            "email": "teepungkorn@clicknext.com",
+            "terms_conditions_accepted": true,
+            "phone":"0871506083"
         },{    
             "ref_id": "1200100100",
             "phone": "0877777777",
