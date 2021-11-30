@@ -8,5 +8,5 @@ app.use("/", router)
 
 
 app.listen( process.env.EXPRESS_PORT || 3000, async () => {
-    console.log(`App listening on port 3000!`)
+    console.log(`App listening on port ${process.env.EXPRESS_PORT}`)
 })
