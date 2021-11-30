@@ -10,7 +10,8 @@ app.use("/", router)
 // app.listen( process.env.EXPRESS_PORT || 3000, async () => {
 //     console.log(`App listening on port ${process.env.EXPRESS_PORT}`)
 // })
+var port = process.env.EXPRESS_PORT || 3000;
 
-app.listen(process.env.EXPRESS_PORT || 3000, function(){
-    console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-  });
+app.listen(port, () => {
+    console.log("application is listening on:", port);
+ });
