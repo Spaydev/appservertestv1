@@ -3,7 +3,7 @@ const express = require("express")
 const app = express()
 const router = require("./routes/routeIndex")
 
-app.use(express.json({ limit: "50mb" }))
+// app.use(express.json({ limit: "50mb" }))
 app.use("/", router)
 
 
